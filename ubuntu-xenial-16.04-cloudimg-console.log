@@ -680,4 +680,12 @@ cloud-init[1409]:     f(*args, **kwargs)
 
 Ubuntu 16.04.7 LTS ubuntu-xenial ttyS0
 
-ubuntu-xenial login: 
+ubuntu-xenial login: [46986.365128] INFO: rcu_sched self-detected stall on CPU[46986.365649] INFO: rcu_sched self-detected stall on CPU[46986.365652] 	3-...: (1 ticks this GP) idle=cdd/1/0 softirq=71810/71810 fqs=0 
+[46986.365653] 	[46986.365679] rcu_sched kthread starved for 381632 jiffies! g62778 c62777 f0x0 s3 ->state=0x1
+[45459.840521] INFO: rcu_sched self-detected stall on CPU[45459.840521] 	2-...: (1 ticks this GP) idle=c1d/140000000000001/0 softirq=40675/40675 fqs=0 
+[45459.840521] 	[45459.840521] rcu_sched kthread starved for 381632 jiffies! g62778 c62777 f0x0 s3 ->state=0x1
+[68976.603744] INFO: rcu_sched self-detected stall on CPU[68976.603747] 	2-...: (2 ticks this GP) idle=c1d/140000000000001/0 softirq=40675/40675 fqs=0 
+[68976.603747] 	[68976.603750] rcu_sched kthread starved for 5879191 jiffies! g62778 c62777 f0x0 s3 ->state=0x1
+
+[68976.604356] 	0-...: (1 ticks this GP) idle=3e5/1/0 softirq=21525/21525 fqs=1 
+[68976.604356] 	 (t=5879218 jiffies g=62778 c=62777 q=924)
