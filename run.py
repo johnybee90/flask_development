@@ -6,7 +6,8 @@ import sys
 def start():
     debug = True
     host = "0.0.0.0"
-    flask_app.run(host, debug=debug)
+    port = 8080
+    flask_app.run(host, port, debug=debug)
 
 def init():
     init_db(flask_app)
