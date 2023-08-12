@@ -28,9 +28,15 @@ header {
     padding: 10px;
 }
 
+
 footer {
     text-align: center;
+
 }
+
+
+
+
 
 .flashes {
     padding: 0;
@@ -55,4 +61,23 @@ footer {
 
 .flashes .alert-success {
     background: lightgreen;
+}
+
+.internal_error {
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    border-radius: 5px;
+    background: mistyrose;
+}
+
+.paginate {
+    text-align: center;
+}
+
+.paginate li {
+    padding-top: 10px;
+    text-align: center;
+    display: inline-block;
 }

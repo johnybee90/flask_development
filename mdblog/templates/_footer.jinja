@@ -1,5 +1,20 @@
-<footer>
-    <p>
-        (c) 2018 Severín Murcina
-    </p>
+<footer class="footer">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form action="{{ url_for("main.add_newsletter") }}" method="post">
+                    {{ newsletter_form.csrf_token }}
+                    {{ newsletter_form.email(
+                            placeholder="Subscribe to newsletter",
+                            class="form-control") }}
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-12">
+                <span class="text-muted"> (c) 2018 Severin Murcina </span>
+            </div>
+        </div>
+    </div>
 </footer>
